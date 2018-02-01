@@ -1,0 +1,8 @@
+.topbar {
+    background: rgba(32, 97, 158, 1);
+    color: azure;
+    font-size: 12px;
+    letter-spacing: .7px;
+    height: 30px;
+    line-height: 30px;
+}

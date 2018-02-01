@@ -1,0 +1,17 @@
+.navbar {
+    background: rgba(32, 97, 158, 1);
+    border-bottom: 2px solid rgb(248, 123, 65);
+}
+
+.navbar ul {
+    padding-bottom: 0px;
+}
+
+.navbar ul li {
+    float: left;
+    color: azure;
+}
+
+.nav-item :hover {
+    background: rgb(248, 123, 65);
+}
