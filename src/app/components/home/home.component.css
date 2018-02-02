@@ -1,0 +1,51 @@
+.main>div {
+    border: 1px solid #d4d4d4;
+    padding: 0px 0px;
+    background: #ffffff;
+}
+
+.main {
+    margin-right: -5px;
+}
+
+.rightbox {
+    border: 1px solid #d4d4d4;
+    padding: 0px;
+    background: #ffffff;
+    height: 468px;
+}
+
+.midbox {
+    margin-left: -10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.midbox>.heads,
+.rightbox>.heads {
+    background: #f6f6f6;
+    padding: 15px 0px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.midbox>.heads {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.rightbox>.heads {
+    margin-bottom: 15px;
+    color: #20619E;
+}
+
+.rightbox>.image>img {
+    width: 200px;
+    height: auto;
+}
+
+.rightbox>.intro>p {
+    padding: 0px 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    border-top: 1px solid #d4d4d4;
+}

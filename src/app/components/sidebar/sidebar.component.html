@@ -1,0 +1,32 @@
+<div class="sidebar">
+    <div class="bot box text-center">
+        <div class="heads">
+            Login
+        </div>
+        <div class="form-group">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Email" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">X</small>
+
+            <label for="password"></label>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">X</small>
+            <button class="forgot ">Forgot password?</button>
+            <button class="login " type="submit">Login</button>
+        </div>
+    </div>
+    <div class="top box News">
+        <div class="heads text-center">
+            News Feed
+        </div>
+        <marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrolldelay="0">
+            <a href="#" *ngFor="let item of news">
+                <li class="">{{item}}</li>
+            </a>
+        </marquee>
+
+
+    </div>
+
+
+</div>

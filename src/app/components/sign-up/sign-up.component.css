@@ -1,0 +1,41 @@
+.registerform {
+    margin-top: 10px;
+}
+
+.registerform>div>div>.form-group {
+    padding: 0px 12px;
+}
+
+.registerform>div>div>.form-group>label {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.registerform>div>div>.form-group small {
+    visibility: hidden;
+}
+
+.registerform>div>div>.form-group>input,
+.registerform>div>div>.form-group>textarea {
+    max-width: 350px;
+}
+
+.married>input,
+.gender>input {
+    margin-left: 40px;
+}
+
+.buttons>div>button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #20619E;
+    color: azure;
+    border: 0px;
+    outline: none;
+    box-shadow: 0px 0px 0px #000000;
+    padding: 7px 20px;
+}
+
+.buttons>div>button:hover {
+    background: rgb(20, 64, 105);
+}

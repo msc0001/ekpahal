@@ -6,9 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'JNV';
+  title = 'JNV Ekpahal;';
+  news = 'This is a sample text bla bla bla';
   person = {
-    "number" : '7895964567',
-    "email" : 'singh.m0710@gmail.com'
+    "number" : 'xxxxxx4567',
+    "email" : 'xyz123@gmail.com'
+    
   }
+  showHome = 'false';
 }

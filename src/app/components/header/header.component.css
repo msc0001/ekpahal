@@ -11,8 +11,24 @@
     width: auto;
 }
 
+.name>h1 {
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient( #20619E, #F87B41);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    size: 120%;
+}
+
 .flag img {
     width: auto;
     height: 130px;
     text-align: right;
+}
+
+@media (max-width: 420px) {
+    .flag {
+        display: none;
+    }
 }

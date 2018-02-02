@@ -6,3 +6,51 @@
     height: 30px;
     line-height: 30px;
 }
+
+.topbar>div>div>ul {
+    list-style: none;
+}
+
+.topbar>div>div>ul>li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.icons>li>a>img {
+    width: 20px;
+    height: 20px;
+    color: aqua;
+}
+
+.outer {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px #afafaf;
+}
+
+.newsfeed {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 6px 0px;
+    width: 100%;
+    background: #ffffff;
+    letter-spacing: 1px;
+    border: 0px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.moto {
+    background: #20619E;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: azure;
+    border: 0px;
+}
+
+.moto>h4 {
+    float: left;
+    margin-right: 20px;
+}
